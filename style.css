@@ -1,0 +1,219 @@
+body {
+    background-color: black;
+    background-image: url(https://media.istockphoto.com/id/1140828326/vector/retro-neon-background-with-80s-styled-laser-grid-and-stars.jpg?s=612x612&w=0&k=20&c=wnw0f35ERwayC4TlDo_0sd25b1PHKS4G5ucFD5xTNFo=);
+    /* background-repeat: no-repeat; */
+    /* background-size: 100%; */
+    background-attachment: scroll;
+    color: white;
+    margin: 2% 5%;
+    font-family: 'Games', sans-serif;
+  }
+
+  /* .button {
+    background-color: transparent
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+  } */
+
+.button {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background-color:transparent;
+	border-radius:10px;
+	border: 1px solid magenta;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Games', sans-serif;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+  text-align: center;
+  vertical-align: auto;
+  padding: 1rem 1rem;
+}
+
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+  .container {
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+  }
+  
+  .assembly {
+    padding: 1em;
+    background-color: rgb(54, 58, 58);
+    color: rgba(190, 224, 195, 0.514);
+    text-align: justify;
+    width: 400px;
+    height: 350px;
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: auto;
+    margin-right: 100px;
+    }
+  
+  h1 {
+    text-align: center;
+    border: 3px outset white;
+  }
+  .codelink {
+    background-image: linear-gradient(
+      rgb(192, 247, 142),
+      rgb(194, 162, 162),
+      rgb(136, 181, 240)
+    );
+    height: 30px;
+    border-radius: 80px;
+    padding: 20px;
+    margin: 5% 10%;
+  }
+  
+  a.code {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 3px 5px 4px;
+    margin: 20% 8% 2%;
+  
+  }
+  .code:hover,
+  .code:focus,
+  .code:active {
+      background-color: black;
+      color:white;
+      border-radius:30px;
+  }
+  
+  .moves {
+    text-align: center;
+    border: 3px dotted red;
+  }
+  
+  footer {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .foot {
+    align-content: center;
+    padding: 20px;
+  }
+  
+  .me {
+    background-color: fuchsia;
+    color: white;
+    text-decoration: none;
+    size: 20px;
+  }
+  
+  .me:hover,
+  .me:focus,
+  .me:active {
+    background-color: pink;
+    color: black;
+    text-decoration: none;
+    size: 25px;
+    border: 3px white solid;
+    border-radius: 5px;
+  }
+  
+  .assembly {
+    background-color: transparent;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+  }
+  
+  .alien {
+    background-color: transparent;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 400px;
+    height: 350px;
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: auto;
+  }
+/* 
+  .resetbox {
+    background-color: transparent;
+    height: 75px;
+    width: 150px;
+    display: flex;
+    margin-left: 500px;
+    border-style: inset;
+    border-color: black;
+    gap: 20px;
+  } */
+  
+  .resetlink {
+    justify-content: center;
+    padding-top: 25px;
+    padding-left: 25px;
+    margin-left: center;
+  }
+  
+  .reset {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    -webkit-animation: glow 4s ease-in-out infinite alternate;
+    -moz-animation: glow 4s ease-in-out infinite alternate;
+    animation: glow 4s ease-in-out infinite alternate;
+    font-size: 20px;
+  }
+  
+  .reset:hover,
+  .reset:focus,
+  .reset:active {
+    color: magenta;
+    background-color: transparent;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px rgb(250, 243, 243), 0 0 20px rgb(219, 219, 219),
+        0 0 30px #b9b9b9, 0 0 40px #969595, 0 0 50px #4d4c4c, 0 0 60px #222222,
+        0 0 70px #000000;
+    }
+    to {
+      text-shadow: 0 0 20px rgb(250, 243, 243), 0 0 30px rgb(219, 219, 219),
+        0 0 40px #b9b9b9, 0 0 50px #969595, 0 0 60px #4d4c4c, 0 0 70px #222222,
+        0 0 80px #000000;
+    }
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px rgb(250, 243, 243), 0 0 20px rgb(219, 219, 219),
+        0 0 30px #b9b9b9, 0 0 40px #969595, 0 0 50px #4d4c4c, 0 0 60px #222222,
+        0 0 70px #000000;
+    }
+    to {
+      text-shadow: 0 0 20px rgb(250, 243, 243), 0 0 30px rgb(219, 219, 219),
+        0 0 40px #b9b9b9, 0 0 50px #969595, 0 0 60px #4d4c4c, 0 0 70px #222222,
+        0 0 80px #000000;
+    }
+  }

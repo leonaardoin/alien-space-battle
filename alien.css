@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    background-attachment: scroll;
+    font-family: 'Games', sans-serif;
+}
+
+.ship {
+    background-color: transparent;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: auto;
+  }
+
+  .assembly {
+    background-color: transparent;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 400px;
+    height: 500px;
+    display:inline-block;
+    padding: 1rem 1rem;
+    vertical-align: auto;
+    margin-right: 100px;
+  }
+
+  .container {
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+  }
+ 
+h1 {
+    font-family: 'Games', sans-serif;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    font-size: 50px;
+    background-image: url(https://media.istockphoto.com/id/1140828326/vector/retro-neon-background-with-80s-styled-laser-grid-and-stars.jpg?s=612x612&w=0&k=20&c=wnw0f35ERwayC4TlDo_0sd25b1PHKS4G5ucFD5xTNFo=);
+}
+
+h4 {
+    font-family: 'Games', sans-serif;
+    padding-bottom: 25px;
+}
+
+button {
+    width: 200px;
+    height: 150%;
+    line-height: 50px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.star {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.alien__1 {
+position: absolute;
+bottom: 700px;
+right: 300px;
+z-index: 2;
+}
+
+.alien__2 {
+position: absolute;
+bottom: 450px;
+right: 450px;
+z-index: 2;
+}
+
+.alien__3 {
+position: absolute;
+bottom: 300px;
+right: 300px;
+z-index: 2;
+}
+
+.alien__4 {
+position: absolute;
+bottom: 800px;
+right: 1300px;
+z-index: 2;
+}
+
+.alien__5 {
+position: absolute;
+bottom: 500px;
+right: 1550px;
+z-index: 2;
+}
+
+.alien__6 {
+    position: absolute;
+    bottom: 200px;
+    right: 1250px;
+    z-index: 2;
+}
